@@ -46,3 +46,22 @@ nav ul li {
   margin-left: 15px;
   color: white;
 }
+
+.bunner {
+    background: #000;
+    height: 60vh;
+  }
+  
+  .bunner-img {
+    background-image: url("/img/hero.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    padding: 10% 20%;
+  }
+  
