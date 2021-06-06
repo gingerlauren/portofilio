@@ -1,10 +1,48 @@
-body{
-    background-color: white;
-   
+body {
+    padding: 0%;
+    margin: 0%;
+  }
+
+.logo {
+  width: 60%;
+  color: #000;
+  font-size: 15px;
+  float: left;
+  display: flex;
 }
-nav{
-    background-color: burlywood
-    padding 90pix
-    margin 50pix
-    ;
+
+.logo span{
+  font-size: 23px;
+
+}
+
+nav {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  height: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav-details {
+  float: right;
+  display: flex;
+}
+
+nav ul {
+  margin: auto 30px;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 15px;
+  color: white;
 }
