@@ -23,6 +23,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   height: 20px;
+  background-color: rgb(136, 125, 131);
 }
 
 nav a {
@@ -49,7 +50,7 @@ nav ul li {
 
 .bunner {
     background: #000;
-    height: 60vh;
+    height: 100vh;
   }
   
   .bunner-img {
@@ -124,3 +125,77 @@ nav ul li {
     background: black;
     text-align: center;
   }
+  .aboutme{
+    height: 75vh;
+    background-image:url(../img/3.webp);
+    color: white;
+    justify-content: center;
+    align-content: center;
+  }
+  box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(0, 0, 0) 50%, white 50%);
+  }
+  .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rebeccapurple;
+  }
+  .box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+  }
+  #contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .input{
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+  
+  }
+  #msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+  }
+  #send{
+    padding: 10px;
+    width:10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+  }
+  #send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+  }
+  
